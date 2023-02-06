@@ -22,6 +22,4 @@ This portfolio is used to showcase my current and upcoming web design projects. 
 
 URL:
 
-    ```md
-[   assets/images/portfolio-screenshot.png](https://github.com/castarke/Portfolio/blob/b7a3fd8e05cda773d5d2fc4354bc57edb1522b3b/assets/images/portfolio-screenshot.png)
-    ```
+    ```md assets/images/portfolio-screenshot.png
