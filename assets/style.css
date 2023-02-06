@@ -1,13 +1,13 @@
 *{
-    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
 
 :root {
-    --blue:#003399;
+    /* hiding these due to no longer in use */
+    /* --blue:#003399;
     --green:#009900;
-    --red:#990000;
+    --red:#990000; */
     --gray:#e6e6e6;
     --lightblue:#b3ecff;
 
@@ -19,14 +19,16 @@ body {
 
 h1 {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     font-size: 50px;
     background-color: var(--gray);
 }
 .clickable-header {
     display:flex;
+    flex-direction: row;
     justify-content: space-around;
     padding: 15px 15px;
+    /* changed from xxl to xl for visual appearances */
     font-size: x-large;
     background-color: var(--gray);
 }
@@ -38,13 +40,12 @@ article {
 .image {
     display: flex;
     justify-content: center;
-    margin: ;  
     padding-bottom: 60px;
+    /* added padding to help seperate articals */
 }
 
 a {
     padding: 10px 5px;
-    display:flex;
 }
 
 h2 {
@@ -59,13 +60,15 @@ p {
 nav a {
     display: flex;
     flex-direction: column;
+    /* using align-items to bring these pictures down the page */
     align-items: center;
+    /* using justify-content to center the photos */
     justify-content: center;
-    padding: 0px 200px;
+    padding: 10px 50px;
 }
 
 .contact-me {
-    padding: 50px 5px;
+    padding: 25px 5px;
     font-size: large;
 }
 
@@ -77,7 +80,7 @@ footer {
     font-size: x-large;
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width:1000px) {
    .image {
 flex-direction: column;
 background-color: var(--green);
