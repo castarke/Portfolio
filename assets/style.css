@@ -1,49 +1,93 @@
 *{
-    background-color: crimson;
+    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
-:root {
-    --blue:#0000ff;
-    --green:#009900;
-}
-.image {
 
+:root {
+    --blue:#003399;
+    --green:#009900;
+    --red:#990000;
+    --gray:#e6e6e6;
+    --lightblue:#b3ecff;
+
+}
+body {
+    background-color: var(--lightblue);
+    color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content:space-between;
+    font-size: 50px;
+    background-color: var(--gray);
+}
+.clickable-header {
+    display:flex;
+    justify-content: space-around;
+    padding: 15px 15px;
+    font-size: x-large;
+    background-color: var(--gray);
+}
+
+article {
+    padding: 5px 5px;
+}
+
+.image {
     display: flex;
     justify-content: center;
-    padding: 5px 20px;
-    /* max-height: 500px; */
-    margin: 0;
-
+    margin: ;  
+    padding-bottom: 60px;
 }
 
-article nav {
-/* this will affect all of the article then nav tags */
+a {
+    padding: 10px 5px;
+    display:flex;
 }
 
-.about-me {
-/* this will only affect the about me class */
+h2 {
+    padding: 5px 5px;
 }
 
-.work {
+p {
+    font-size: large;
+    padding: 25px 5px;
+}
 
+nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 200px;
 }
 
 .contact-me {
-
+    padding: 50px 5px;
+    font-size: large;
 }
 
-@media screen and (max-width:768px) {
+footer {
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+@media all and (max-width:768px) {
    .image {
 flex-direction: column;
 background-color: var(--green);
     }
     
 }
-@media screen and (max-height:700px) {
-    .image {
+/* @media screen and (max-width:768px) {
+  nav a {
         flex-direction: column;
         background-color: var(--blue);
     }
     
-}
+} */
