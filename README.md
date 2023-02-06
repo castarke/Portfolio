@@ -22,4 +22,4 @@ This portfolio is used to showcase my current and upcoming web design projects. 
 
 URL:
 
-    ```md assets/images/portfolio-screenshot.png
+![portfolio-screenshot](https://user-images.githubusercontent.com/122697165/216889689-210bc273-0864-4f81-bee8-cf5ed4b162b1.png)
